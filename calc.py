@@ -51,6 +51,8 @@ def main():
         elif choice == '4':
             result = divide(num1, num2)
             print(f"{num1} / {num2} = {result}")
+        else :
+            print( "Invalid Operation. Choice should be between 1 to 4" )
         
         print()  # Print a blank line for better readability
 
